@@ -126,12 +126,14 @@ img {
   display: inline-block;
   font-size: 16px;
   padding: 12px 18px;
+  margin-bottom:10px;
   color: #fff;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  align:center;
 }
 .aa-browse-btn span {
   margin-left: 5px;
@@ -1038,13 +1040,13 @@ img {
 #aa-product .aa-product-area .aa-product-inner {
   display: inline;
   float: left;
-  width: 100%;
+  width: 80%;
 }
 /* edited v1.1 */
 #aa-product .aa-product-area .aa-product-inner .aa-product-catg {
   float: left;
   margin: 0;	
-  width: 100%;
+  width: 80%;
 }
 
 #aa-product .aa-product-area .aa-product-inner #men {
