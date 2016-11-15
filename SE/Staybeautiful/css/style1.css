@@ -8,22 +8,47 @@ body {
 
 table, td, th, tr {
 	border: 1px solid black;
-	font-size: 12px;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 th{
 	height:50px;
 	text-align: center;
+	color: black;
+	font-size:14px;
 }
 
 tr:hover{background-color:#99A3A4; }
 
 table{
-	border-collapse: collapse;
+	
+}
+
+.edit_submit{
+	text-align: center;
+	text-decoration: underline;
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.edit_inv{
+		background-color: #CCD1D1;
+}
+
+.form_edit{
+	text-align: center;
+}
+
+.manage{
+	color: #57C5A0;
+	font-size: 1em;
+	text-decoration: underline;
 }
 
 .table_th{
-	font-size: 1.25em;
+	font-size: 1em;
 	font-weight: bold;
 	color: black;
 }
@@ -32,16 +57,12 @@ table{
   padding: 0;
 }
 
-.table_edit{
-	text-decoration: underline;
-	color: #a569bd;
-}
-
 .add{
 	text-decoration: underline;
-	color: #a569bd;
-	float: right;
+	color: #57C5A0;
+	float: center;
 	font-size: 1.25em;
+
 }
 
 /* MODULES - Individual site components */

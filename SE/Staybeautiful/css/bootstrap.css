@@ -3,7 +3,7 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css #EBE7DF*/
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -26,6 +26,7 @@ nav,
 section,
 summary {
   display: block;
+  background-color:white;
 }
 audio,
 canvas,
@@ -1187,7 +1188,7 @@ h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #57C5A0;
 }
 h1 small,
 h2 small,
@@ -2275,7 +2276,7 @@ th {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid black;
 }
 .table > thead > tr > th {
   vertical-align: bottom;

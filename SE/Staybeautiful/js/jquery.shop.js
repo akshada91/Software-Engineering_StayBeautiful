@@ -3,11 +3,13 @@
 		this.$element = $( element );
 		this.init();
 	};
-	
+
 	$.Shop.prototype = {
 		init: function() {
 		
 		    // Properties
+			
+
 		
 			this.cartPrefix = "StayBeautiful-"; // Prefix string to be prepended to the cart's name in the session storage
 			this.cartName = this.cartPrefix + "cart"; // Cart name in the session storage
@@ -237,6 +239,8 @@
 		// Displays the shopping cart
 		
 		displayCart: function() {
+			
+			
 			if( this.$formCart.length ) {
 				var cart = this._toJSONObject( this.storage.getItem( this.cartName ) );
 				var items = cart.items;
@@ -253,7 +257,7 @@
 						var product = item.product;
 						var price = this.currency + " " + item.price;
 						var qty = item.qty;
-						var html = "<tr><td class='pname'>" + product + "</td>" + "<td class='pqty'><input type='text' value='" + qty + "' class='qty'/></td>";
+						var html = "<tr><td class='pname'>" + product + "&nbsp;"+"</td>" + "<td class='pqty'><input type='text' value='" + qty +"&nbsp;"+ "' class='qty'/></td>";
 					    	html += "<td class='pprice'>" + price + "</td><td class='pdelete'><a href='' data-product='" + product + "'>&times;</a></td></tr>";
 					
 						$tableCartBody.html( $tableCartBody.html() + html );
